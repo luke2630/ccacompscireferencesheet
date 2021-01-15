@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Reference Page</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>HTML Reference</title>
+      <link rel="stylesheet" href="style.css">
+      <link id="pagestyle" rel="stylesheet" type="text/css" href="#">
+  </head>
+  <body class="bbb">
+    <h1 class="h1">HTML Reference Page</h1>
+<!-- switch style buttons -->
+  <div id=buttonstyle>
+	<hr>
+  </div>
+  <pre>
+    Start every html with 
+      &lt!DOCTYPE html&gt
+      &lthtml&gt
+        &lthead&gt
+          
+          title that appears on the top of the tab
+          Can have an icon in the tab
+          link to css sheet 
+          
+          Basically you add everything that doesn't appear on the website itself
+
+        &lt/head&gt
+        &ltbody&gt
+
+          In here is literally just the website itself
+          what happens in the website is below.
+        
+        &lt/body&gt
+      &lt/html&gt
+  </pre>
+    <table class="tablestyle2"> <!--this is how to add a table-->
+      <tr>
+        <th>Name</th>
+        <th>Start Tag</th>
+        <th>End Tag</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td><a href="#headings">Heading</a></td>
+        <td>&lth1&gt</td>
+        <td>&lt/h1&gt</td>
+        <td>&lth1&gtThis is a Heading&lt/h1&gt</td>
+      </tr>
+      <tr>
+        <td><a href="#paragraphs">Paragraphs</a></td>
+        <td>&ltp&gt</td>
+        <td>&lt/p&gt</td>
+        <td>&ltp&gtThis is a Paragraph&lt/p&gt</td>
+      </tr>
+      <tr>
+        <td><a href="#breaks">Breaks</a></td>
+        <td>&ltbr&gt</td>
+        <td>N/A</td>
+        <td>&ltbr&gt</td>
+      </tr>
+      <tr>
+        <td><a href="#quotations">Quotations</a></td>
+        <td>&ltq&gt</td>
+        <td>&lt/q&gt</td>
+        <td>&ltq&gtThese words are now wrapped in quotations&lt/q&gt</td>
+      </tr>
+      <tr>
+        <td><a href="#lines">Lines</a></td>
+        <td>&lthr&gt</td>
+        <td>N/A</td>
+        <td>&lthr&gt</td>
+      </tr>
+      <tr>
+        <td><a href="#comments">Comments</a></td>
+        <td>&lt!--</td>
+        <td>--&gt</td>
+        <td>&lt!-- This is a comment --&gt</td>
+      </tr>
+      <tr>
+        <td><a href="#links">Links</a></td>
+        <td>&lta href=""&gt</td>
+        <td>&lt/a&gt</td>
+        <td>&lta href="https://google.com"&gtThis is a link to google&lt/a&gt</td>
+      </tr>
+      <tr>
+        <td><a href="#images">Images</a></td>
+        <td>&ltimg src=""&gt</td>
+        <td>N/A</td>
+        <td>&ltimg src="https://goo.gl/jcdXn2"&gt</td>
+      </tr>
+      <tr>
+        <td><a href="#lists">Lists</a></td>
+        <td>&ltul&gt,&ltol&gt,&ltli&gt</td>
+        <td>&lt/ul&gt,&lt/ol&gt,&lt/li&gt</td>
+        <td>&ltul&gt&ltli&gtunordered list&lt/li&gt&lt/ul&gt&ltol&gt&ltli&gtordered list&lt/li&gt&lt/ol&gt</td>
+      </tr>
+      <tr>
+        <td><a href="#tables">Tables</a></td>
+        <td>&lttr&gt, &ltth&gt, &lttd&gt</td>
+        <td>&lt/tr&gt, &lt/th&gt, &lt/td&gt</td>
+        <td>
+          &lttr&gt
+            &lth&gtHeader&lt/th&gt
+            &lttd&gtInput&lt/td&gt
+          &lt/tr&gt
+        </td>
+      </tr>
+      <tr>
+        <td><a href="#blocks">Blocks</a></td>
+        <td>&ltdiv&gt</td>
+        <td>&lt/div&gt</td>
+        <td>&ltdiv&gt&lth1&gtThis heading is now part of this div&lt/h1&gt&lt/div&gt</td>
+      </tr>
+    </table>
+    <h2 class="headings">Introduction to HTML</h2> <!-- how to add text -->
+      <p>
+        A HTML page must include a &lt!DOCTYPE html&gt tag to let the browser know that this page will be in html. After that it is important to include a &lthtml&gt tag at the beginning and a &lt/html&gt tag at the end of your code. A html code must also include a head and body tag which will include the contents of the page. There are many different kinds of html tags that can do a variety of things. Such as the headings tags which create headings or the break tag that can create spaces between blocks of texts.
+      </p>
+    <h2 id="headings" class="headings">Headings</h2>
+      <h3>Description</h3>
+        <p>The &lth1&gt tag and all other h tags are used to create headings within a browser. The number that comes after the h determines how important that heading is to the browser.</p>
+      <h3>Example</h3>
+        <pre class="example">
+    &lt!DOCTYPE html&gt
+      &lthtml&gt
+        &lthead&gt
+        &lt/head&gt
+        &ltbody&gt
+          &LTh2&GTMAIN IDEA&LT/h2&GT
+            &LTh4&GTPOINT 1&LT/h4&GT
+            &LTh4&GTPOINT 2&LT/h4&GT
+            &LTh4&GTPOINT 3&LT/h4&GT
+        &lt/body&gt
+      &lt/html&gt
+        </pre>
+      <h3 >Browser Display</h3>
+      <div class="example">
+        <h2>MAIN IDEA</h1>
+            <h4>POINT 1</h4>
+            <h4>POINT 2</h4>
+            <h4>POINT 3</h4>
+      </div>
+        <a href="https://www.w3schools.com/html/html_headings.asp" id=1>W3 School Headings Tutorial Link</a>
+    <hr>
+    <h2 id="paragraphs" class="headings">Paragraphs</h2>
+      <h3>Description</h3>
+        <p>The &ltp&gt is where the majority of content that is in a website is located. It contains all of the information that the author wants to convey that isn't stated in the headings.</p>
+      <h3>Example</h3>
+        <pre class="example">
+&ltp&gtThis is a paragraph, it contains information.&lt/p&gt
+        </pre>
+      <h3 class="example">Browser Display</h3>
+        <p>This is a paragraph, it contains information.</p>
+        <a href="https://www.w3schools.com/html/html_paragraphs.asp">W3 School Paragraphs Tutorial Link</a>
+    <hr>
+    <h2 id="breaks" class="headings">Breaks</h2>
+      <h3>Description</h3>
+        <p>The &ltbr&gt are used to create lines between different paragraphs, links, headings etc. They simple create a space between the two different lines of code. Similar to hitting enter and creating a space between two paragraphs.</p>
+      <h3>Example</h3>
+        <pre class="example">
+&lth4&gtHeading 1&lt/h4&gt
+&ltbr&gt
+&ltp&gtThis is the paragraph that relates to the heading&lt/p&gt
+        </pre>
+      <h3>Browser Display</h3>
+        <div class="example">
+        <h4>Heading 1</h4>
+        <br>
+        <p>This is the paragraph that relates to the heading</p>
+        </div>
+        <a href="https://www.w3schools.com/html/html_blocks.asp"> W3 School Breaks Tutorial Link</a>
+        <hr>
+    <h2 id="quotations" class="headings">Quotation</h2>
+      <h3>Description</h3>
+        <p>The &ltq&gt tag is used to add quotations to a paragraph or heading. It is merely inserted around the word(s) that need to be placed within quotations.</p>
+      <h3>Example</h3>
+        <pre class="example">
+&ltp&gtThis paragraph contains some of the &ltq&gtbest&lt/q&gt literature that the world has to offer&lt/p&gt
+        </pre>
+      <h3>Browser Display</h3>
+        <p class="example">This paragraph contains some of the <q>best</q> literature that the world has to offer</p>
+      <a href="https://www.w3schools.com/html/html_quotation_elements.asp"> W3 School Quotations Tutorial Link</a>
+      <hr>
+    <h2 id="lines" class= "headings">Lines</h2>
+      <h3>Description</h3>
+        <p>The &lthr&gt tag is used to create lines to seperate different paragraphs of headings. It can be used similarly to the &ltbr&gt tag.</p>
+      <h3>Example</h3>
+        <pre class="example">
+&lth4&gtHeading&lt/h4&gt
+&lthr&gt
+&ltp&gtThis is a paragraph&lt/h4&gt
+        </pre>
+      <h3>Browser Display</h3>
+        <div class="example">
+        <h4>Heading</h4>
+        <hr>
+        <p>This is a paragraph</p>
+        </div>
+      <a href="https://www.w3schools.com/html/html_blocks.asp"> W3 School Lines Tutorial Link</a>
+      <hr>
+    <h2 id="comments" class="headings">Comments</h2>
+      <h3>Description</h3>
+        <p>&lt!-- --&gt tags are used to create small notes or comments within your code that won't affect the program itself. It merely helps the person reading the code to better understand what the code is doing and how it does it.</p>
+      <h3>Example</h3>
+        <pre class="example">
+&lt!-- This is the heading and it displays the large word "Heading" --&gt
+&lth4&gtHeading&lt/h4&gt
+        </pre>
+      <h3>Browser Display</h3>
+      <div class="example">
+       <!-- This is the heading and it displays the large word "heading"-->
+       <h4>Heading</h4>
+      </div>
+      <a href="https://www.w3schools.com/html/html_comments.asp"> W3 School Comments Tutorial Link</a>
+      <hr>
+    <h2 id="links" class="headings">Links</h2>
+      <h3>Description</h3>
+        <p>The &lta href=""&gt &lt/a&gt tags are used to insert links into your website. These tags allow you to create a small portion of text and make it into a link which can direct them to other parts of your website or an entirely different website.</p>
+      <h3>Example</h3>
+      <pre class="example">
+&lta href="https://www.google.com/"&gtLink to Google Home Page&lt/a&gt
+      </pre>
+      <h3>Browser Display</h3>
+        <a href="https://www.google.com/" class="example"> Link to Google Home Page</a>
+        <br>
+        <br>
+      <a href="https://www.w3schools.com/html/html_links.asp"> W3 School Links Tutorial Link</a>
+      <hr>
+    <h2 id="images" class"headings">Images</h2>
+      <h3>Description</h3>
+        <p> The &ltimg src=""&gt tag is used to add images to a website. With other tags you may also be able to change the size of the image and could also turn it into a link. However, with just the image tag it merely inserts the image into your website.</p>
+      <h3>Example</h3>
+      <pre class="example">
+&ltimg src="https://goo.gl/jcdXn2"&gt
+      </pre>
+      <h3>Browser Display</h3>
+        <div class="example">
+        <img src="https://goo.gl/jcdXn2">
+        <br>
+        </div>
+      <a href="https://www.w3schools.com/html/html_images.asp"> W3 School Images Tutorial Link</a>
+      <hr>
+    <h2 id="lists" class="headings">Lists</h2>
+      <h3>Description</h3>
+        <p>There are two types of lists, ordered(&ltol&gt) and unordered(&ltul&gt). After you have created the original list, you can then add information into the list using the &ltli&gt. This allows you to just add lists to your webpage.</p>
+      <h3>Example</h3>
+        <pre class="example">
+&lt!--unordered list&gt
+&ltul&gt
+  &ltli&gtList Item 1&lot/li&gt
+  &ltli&gtList Item 2&lot/li&gt
+  &ltli&gtList Item 3&lot/li&gt
+&lt/ul&gt
+&lt!--ordered list&gt
+&ltol&gt
+  &ltli&gtList Item 1&lot/li&gt
+  &ltli&gtList Item 2&lot/li&gt
+  &ltli&gtList Item 3&lot/li&gt
+&lt/ol&gt
+        </pre>
+      <h3>Browser Display</h3>
+        <div class="example">
+        <ul>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
+        </ul>
+        <ol>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
+        </ol>
+        </div>
+      <a href="https://www.w3schools.com/html/html_lists.asp">W3 School Lists Tutorial Link</a>
+      <hr>
+    <h2 id="tables" class="headings">Tables</h2>
+      <h3>Description</h3>
+        <p>Tables allow a web developer to create sets of information organized into rows and columns. To create one, first create a &lttable&gt tag to be able to create the table. Then add a row using the &lttr&gt tag and to make that row a header, add pieces of information using the &ltth&gt tags and to just add another row of information use the &lttd&gt tag.</p>
+      <h3>Example</h3>
+        <pre class="example">
+&lttable&gt
+  &lttr&gt
+    &ltth&gtFirst Name&lt/th&gt
+    &ltLast Name&lt/th&gt
+  &lt/tr&gt
+  &lttr&gt
+    &lttd&gtBob&lt/td&gt
+    &lttd&gtRoss&lt/td&gt
+  &lt/tr&gt
+  &lttr&gt
+    &lttd&gtJoe&lt/td&gt
+    &lttd&gtSmith&lt/td&gt
+  &lt/tr&gt
+  &lttr&gt
+    &lttd&gtJeff&lt/td&gt
+    &lttd&gtWhite&lt/td&gt
+  &lt/tr&gt
+&lt/table&gt
+        </pre>
+      <h3>Browser Display</h3>
+        <div class="example">
+        <table>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+          <tr>
+          <tr>
+            <td>Bob</td>
+            <td>Ross</td>
+          <tr>
+          <tr>
+            <td>Joe</td>
+            <td>Smith</td>
+          <tr>
+          <tr>
+            <td>Jeff</td>
+            <td>White</td>
+          <tr>
+        </table>
+        </div>
+      <a href="https://www.w3schools.com/html/html_tables.asp">W3 School Tables Tutorial Link</a>
+      <hr>
+    <h2 id="blocks" class="headings">Blocks</h2>
+      <h3>Description</h3>
+        <p>The &ltdiv&gt tag allows the user to organize their code into different blocks. This allows for better organization and allows them to style their webpage in a more efficient fashion since everything is organized into blocks</p>
+      <h3>Example</h3>
+        <pre class="example">
+&ltdiv style="background-color:black;color:white;padding:20px;"&gt
+  &lth4&gtHeading&lt/h4&gt
+  &ltp&gtParagraph&lt/p&gt
+&lt/div&gt
+        </pre>
+      <h3>Browser Display</h3>
+        <div style="background-color:black;color:white;padding:20px;" class="example">
+          <h4>Heading</h4>
+          <p>Paragraph</p>
+        </div>
+      <a href="https://www.w3schools.com/html/html_blocks.asp">W3 School Tables Tutorial Link</a>
+      <hr>
+  </body>
+<html>
